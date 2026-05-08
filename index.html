@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikash Bhattarai | AI Systems Architect</title>
+    
+    <!-- Cinematic Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP for Cinematic Motion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cinematic Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="cinematic-nav">
+        <div class="nav-logo">BB_SYS</div>
+        <div class="nav-links">
+            <a href="#os">OS</a>
+            <a href="#projects">Work</a>
+            <a href="#ecosystems">Ecosystems</a>
+            <a href="#evolution">Evolution</a>
+            <a href="#metrics">Metrics</a>
+            <button id="theme-toggle" class="btn-theme-minimal">
+                <i class="fas fa-sun light-icon"></i>
+                <i class="fas fa-moon dark-icon"></i>
+            </button>
+            <a href="#contact" class="btn-primary">Connect</a>
+        </div>
+    </nav>
+
+    <main class="smooth-scroll-container">
+        
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="status-indicator">
+                    <div class="pulse-dot"></div>
+                    <span class="status-text">SYSTEM ONLINE / v2.0.26</span>
+                </div>
+                <h1 class="hero-title gsap-reveal">Bikash Bhattarai</h1>
+                <p class="hero-subtitle gsap-reveal-delay">Building AI-powered systems at the intersection of design, finance, and human performance.</p>
+                <div class="hero-metrics gsap-reveal-delay-2">
+                    <div class="metric"><span class="label">AGE</span><span class="value">26</span></div>
+                    <div class="metric"><span class="label">FOCUS</span><span class="value">GenAI Architecture</span></div>
+                    <div class="metric"><span class="label">STATUS</span><span class="value">Deploying...</span></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL TO INITIATE</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- 2. OPERATING SYSTEM / HOW I THINK -->
+        <section id="os" class="os-section">
+            <div class="section-bg-visual" style="background-image: url('img_neural_network.png');"></div>
+            <div class="container">
+                <h2 class="section-title">Operating System</h2>
+                <div class="os-grid">
+                    <div class="os-card gsap-fade-up">
+                        <i class="fas fa-network-wired os-icon"></i>
+                        <h3>Systems Thinking</h3>
+                        <p>Viewing complex problems not as isolated events, but as interconnected architectures. Designing for the second-order effects.</p>
+                    </div>
+                    <div class="os-card gsap-fade-up">
+                        <i class="fas fa-microchip os-icon"></i>
+                        <h3>AI Augmentation</h3>
+                        <p>Leveraging intelligence layers to compound human output. Automating the redundant to protect deep work.</p>
+                    </div>
+                    <div class="os-card gsap-fade-up">
+                        <i class="fas fa-chart-line os-icon"></i>
+                        <h3>Compounding</h3>
+                        <p>Consistent, daily execution across physical training, learning, and building. The long-term game is the only game.</p>
+                    </div>
+                    <div class="os-card gsap-fade-up">
+                        <i class="fas fa-eye os-icon"></i>
+                        <h3>Visual Storytelling</h3>
+                        <p>Bridging the gap between raw analytical power and human emotion through premium, cinematic design aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SELECTED AI PROJECTS -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Selected AI Architecture</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card gsap-fade-up">
+                        <div class="project-visual" style="background-image: url('img_data_viz.png');">
+                            <div class="overlay-gradient"></div>
+                        </div>
+                        <div class="project-data">
+                            <span class="project-year">2026</span>
+                            <h3>Financial Intelligence Dashboard</h3>
+                            <p class="project-desc">Real-time analytical engine combining LLMs with quantitative data to predict market micro-trends.</p>
+                            <div class="project-stack">
+                                <span>Python</span><span>React</span><span>GPT-4</span>
+                            </div>
+                            <a href="#" class="project-link">View Architecture →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card gsap-fade-up">
+                        <div class="project-visual" style="background-image: url('img_neural_network.png');">
+                            <div class="overlay-gradient"></div>
+                        </div>
+                        <div class="project-data">
+                            <span class="project-year">2025</span>
+                            <h3>Personal Second Brain API</h3>
+                            <p class="project-desc">A vector-based knowledge retrieval system designed to instantly recall notes, research, and technical documentation.</p>
+                            <div class="project-stack">
+                                <span>LangChain</span><span>Pinecone</span><span>FastAPI</span>
+                            </div>
+                            <a href="#" class="project-link">View Architecture →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card gsap-fade-up">
+                        <div class="project-visual" style="background-image: url('img_mustang_gt_black.png');">
+                            <div class="overlay-gradient"></div>
+                        </div>
+                        <div class="project-data">
+                            <span class="project-year">2026</span>
+                            <h3>Mustang GT Email Creator</h3>
+                            <p class="project-desc">A premium, responsive email marketing platform featuring real-time previewing, layout architecture, and export capabilities.</p>
+                            <div class="project-stack">
+                                <span>JavaScript</span><span>DOM API</span><span>CSS Grid</span>
+                            </div>
+                            <a href="https://email-creator-blush.vercel.app/" target="_blank" class="project-link">View Live System →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3.5 ECOSYSTEMS / VENTURES -->
+        <section id="ecosystems" class="ecosystems-section">
+            <div class="container">
+                <h2 class="section-title">Ecosystems & Ventures</h2>
+                <p class="ecosystems-desc">Architecting digital communities and content engines.</p>
+                
+                <div class="ecosystems-grid">
+                    <a href="https://www.instagram.com/thecompounding.mind" target="_blank" class="eco-card gsap-fade-up" style="--bg-img: url('img_ecosystem_1.png');">
+                        <div class="eco-header">
+                            <h3>The Compounding Mind</h3>
+                            <img src="logo_instagram.svg" alt="Instagram" class="eco-brand-icon">
+                        </div>
+                        <p>Philosophy, systems, and mental models.</p>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/innerdominion.hq" target="_blank" class="eco-card gsap-fade-up" style="--bg-img: url('img_ecosystem_2.png');">
+                        <div class="eco-header">
+                            <h3>Inner Dominion</h3>
+                            <img src="logo_instagram.svg" alt="Instagram" class="eco-brand-icon">
+                        </div>
+                        <p>Mastery of self and internal architecture.</p>
+                    </a>
+
+                    <a href="https://www.instagram.com/beyond_the.self" target="_blank" class="eco-card gsap-fade-up" style="--bg-img: url('img_ecosystem_3.png');">
+                        <div class="eco-header">
+                            <h3>Beyond The Self</h3>
+                            <img src="logo_instagram.svg" alt="Instagram" class="eco-brand-icon">
+                        </div>
+                        <p>Exploring macro-perspectives and human potential.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EVOLUTION TIMELINE -->
+        <section id="evolution" class="evolution-section">
+            <div class="container">
+                <h2 class="section-title">Evolution Timeline</h2>
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item gsap-fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2026</h4>
+                            <h3>Building AI Products</h3>
+                            <p>Designing sophisticated Generative AI applications and automated agents for high-leverage outcomes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item gsap-fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2025</h4>
+                            <h3>Generative AI & Intelligent Systems</h3>
+                            <p>Deep dive into LLMs, RAG architectures, and creating personal intelligence layers.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item gsap-fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2024</h4>
+                            <h3>Systems Thinking & Content</h3>
+                            <p>Built The Compounding Mind, Inner Dominion, and Beyond The Self. Mastered audience architecture.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item gsap-fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2023</h4>
+                            <h3>Banking & Analytical Thinking</h3>
+                            <p>Developed rigorous quantitative skills and an understanding of macro financial systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item gsap-fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2022</h4>
+                            <h3>Discipline & Physical Training</h3>
+                            <p>Established the baseline of high performance: physical endurance and mental fortitude.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CURRENTLY BUILDING & 6. WRITING -->
+        <section id="current-writing" class="split-section">
+            <div class="container split-grid">
+                
+                <div class="split-col gsap-fade-up">
+                    <h2 class="section-title">Currently Building</h2>
+                    <ul class="clean-list">
+                        <li>
+                            <h4>AI-powered philosophy engine</h4>
+                            <p>Distilling ancient wisdom through semantic search.</p>
+                        </li>
+                        <li>
+                            <h4>Personal OS for High Performers</h4>
+                            <p>A unified dashboard tracking biology, capital, and output.</p>
+                        </li>
+                        <li>
+                            <h4>Generative visual storytelling</h4>
+                            <p>Automated cinematic generation pipelines.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="split-col gsap-fade-up">
+                    <h2 class="section-title">Knowledge Archive</h2>
+                    <ul class="clean-list">
+                        <li>
+                            <h4><a href="#">The Leverage of Neural Architectures</a></h4>
+                            <p>Why individual operators will outpace agencies in the 2020s.</p>
+                        </li>
+                        <li>
+                            <h4><a href="#">Compounding Physical & Mental Capital</a></h4>
+                            <p>The math behind daily execution and 1% improvements.</p>
+                        </li>
+                        <li>
+                            <h4><a href="#">Brutalism in Digital Design</a></h4>
+                            <p>Removing friction to amplify signal.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 7. SYSTEMS & METRICS -->
+        <section id="metrics" class="metrics-section">
+            <div class="container">
+                <h2 class="section-title">Live Telemetry</h2>
+                <div class="metrics-grid">
+                    <div class="metric-box gsap-fade-up">
+                        <div class="metric-val">120+</div>
+                        <div class="metric-label">Books Digested</div>
+                    </div>
+                    <div class="metric-box gsap-fade-up">
+                        <div class="metric-val">1,500km</div>
+                        <div class="metric-label">Running Distance</div>
+                    </div>
+                    <div class="metric-box gsap-fade-up">
+                        <div class="metric-val">15</div>
+                        <div class="metric-label">AI Systems Built</div>
+                    </div>
+                    <div class="metric-box gsap-fade-up">
+                        <div class="metric-val">3</div>
+                        <div class="metric-label">Communities Scaled</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CONTACT / OPPORTUNITIES -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Initiate Protocol</h2>
+                <p class="contact-desc">Seeking high-leverage opportunities at the intersection of AI, finance, and product architecture. Open to roles, consulting, and intellectual exchange.</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:ivikashsharma999@gmail.com" class="c-link">
+                        <span class="c-icon-wrapper"><i class="fas fa-envelope"></i></span>
+                        ivikashsharma999@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/vikash-sharma-411b38263" target="_blank" class="c-link">
+                        <span class="c-icon-wrapper"><img src="logo_linkedin.svg" alt="LinkedIn"></span>
+                        LinkedIn Protocol
+                    </a>
+                    <a href="https://t.me/Bikash_bhattarai99" target="_blank" class="c-link">
+                        <span class="c-icon-wrapper"><img src="logo_telegram.svg" alt="Telegram"></span>
+                        Telegram Secure
+                    </a>
+                    <a href="https://github.com/ivikashsharma999-glitch" target="_blank" class="c-link">
+                        <span class="c-icon-wrapper"><img src="logo_github.svg" alt="GitHub"></span>
+                        GitHub Repository
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="cinematic-footer">
+            <p>BB_SYS // BUILT FOR THE FUTURE // EST. 2026</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
